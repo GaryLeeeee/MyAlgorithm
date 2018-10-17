@@ -15,6 +15,7 @@ public class Code21 {
     static class Solution7 {
         public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
             ListNode listNode = new ListNode(0);
+            //必须设置一个头结点指向第一个结点，否则listNode只是表示当前结点，会一直往后推
             ListNode firstNode = listNode;//头结点
             while(l1!=null&&l2!=null){
                 if(l1.val<=l2.val){
