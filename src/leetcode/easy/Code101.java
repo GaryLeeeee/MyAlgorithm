@@ -11,9 +11,10 @@ public class Code101 {
         if(root==null)
             return true;
         else
-            return isSymmetricDouble(root.left,root.right);
+            return isSymmetric(root.left,root.right);
     }
-    public static boolean isSymmetricDouble(TreeNode left,TreeNode right){
+    //方法重载,参数为对称的两个TreeNode,递归调用
+    public static boolean isSymmetric(TreeNode left,TreeNode right){
         if(left==null&&right==null)//如果左右子树均为null,则对称
             return true;
         else if(left==null||right==null)//如果左右子树任一为null,则不对称
@@ -21,7 +22,7 @@ public class Code101 {
         else if(left.val!=right.val)//如果左右子树值不相同,则不对称
             return false;
         else
-            return isSymmetricDouble(left.left,right.right)&&isSymmetricDouble(left.right,right.left);//递归,左子树的左子树与右子树的右子树比,左右与右左比,以此类推
+            return isSymmetric(left.left,right.right)&&isSymmetric(left.right,right.left);//递归,左子树的左子树与右子树的右子树比,左右与右左比,以此类推
     }
     //1,2,2,3,4,4,3
     public static void main(String[] args) {
