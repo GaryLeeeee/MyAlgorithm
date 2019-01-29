@@ -2,7 +2,6 @@ package leetcode.easy;
 
 /**
  * Created by GaryLee on 2018-11-06 09:59.
- * 169.求众数(https://leetcode-cn.com/problems/majority-element/)
  */
 public class Code169 {
     public static int majorityElement(int[] nums) {
