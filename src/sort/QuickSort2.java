@@ -6,6 +6,10 @@ import java.util.Arrays;
 /**
  * Created by GaryLee on 2019-07-22 15:42.
  * 快排v2.0
+ * 快排就是选定一个基准数pivot，然后将比pivot小的放到左边，大的放右边
+ * 然后再递归排序左边和右边的 有/无 序数组
+ * 大体思路是先右边再左边与pivot比较，排序标准只分为三种
+ *      小于pivot || pivot || 大于pivot
  */
 public class QuickSort2 {
 
