@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 /**
  * Created by GaryLee on 2019-07-19 20:17.
+ * 3 5 8 1 2 9 4 7 6
+ 1 2 3 4 5 6 7 8 9
  */
 public class QuickSort{
 
@@ -25,7 +27,7 @@ public class QuickSort{
         }
         //运行到这里说明start=end,就把这个数设为pivot
         //用start与end坐标均可
-        arr[start] = pivot;
+        arr[start] = pivot;//到这一步才到pivot赋到中间去(过程中该数不见，用于其他数temp交换)
         if(start > left)
             sortQuick(arr,left,start-1);
         if(end < right)
