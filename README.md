@@ -25,3 +25,15 @@
 
 `中等` 
 * [两数相加](https://github.com/GaryLeeeee/MyAlgorithm/blob/master/src/leetcode/middle/Code2.java) 
+
+## 比较经典的算法
+`动态规划`
+* [最长回文子串](https://github.com/GaryLeeeee/MyAlgorithm/blob/master/src/leetcode/middle/Code5.java)  
+「比如输入`abada`则返回`aba`，输入`aaaa`则返回`aaaa`」    
+「利用动态规划记录ij位置上是否为回文(ij为起止坐标的子串)」    
+「比如判断`abefba`是否回文，就判断首尾a和a是否相同，`相同`，则判断子串(befb)是否为回文，如果是则`abeffa`为回文」    
+「然后判断`befb`是否回文，就判断首尾b和b是否相同，`相同`，则判断子串(ef)是否为回文，如果是则`befb`为回文，进而`abefba`为回文」    
+「然后判断`ef`是否回文，就判断首尾e和f是否相同，`不相同`，则以上的`abefba`，`befb`，`ef`都不是回文」    
+ 需要注意的是i和j的顺序，防止出现短串没判断就判断长串(具体看代码注释)      
+
+
