@@ -36,4 +36,13 @@
 「然后判断`ef`是否回文，就判断首尾e和f是否相同，`不相同`，则以上的`abefba`，`befb`，`ef`都不是回文」    
  需要注意的是i和j的顺序，防止出现短串没判断就判断长串(具体看代码注释)      
 
-
+## [剑指offer](https://www.nowcoder.com/ta/coding-interviews)
+`动态规划`
+* [变态跳台阶](https://github.com/GaryLeeeee/MyAlgorithm/blob/master/src/practice/Code9.java)  
+「在已有的`跳台阶`基础上加上了可以跳1-n阶,所以由`f(n)=f(n-1)+f(n-1)`转为`f(n)=f(n-1)+f(n-2)+...+f(n-n)`即可」    
+`二叉树`
+* [重构二叉树](https://github.com/GaryLeeeee/MyAlgorithm/blob/master/src/practice/Code4.java)  
+「在给定的先序遍历和中序遍历还原二叉树」    
+「1.先序的第一个为父节点(root)」  
+「2.去中序找到root,左边是左子树,右边是右子树」
+「3.然后左右子树重复1 2操作...」  
