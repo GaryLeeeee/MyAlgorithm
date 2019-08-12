@@ -49,7 +49,7 @@
 「3.然后左右子树重复1 2操作...」  
 
 `二进制`
-* [二进制中1的个数](https://github.com/GaryLeeeee/MyAlgorithm/blob/master/src/practice/Code11.java)
+* [二进制中1的个数](https://github.com/GaryLeeeee/MyAlgorithm/blob/master/src/practice/Code11.java)    
 「对于该种题型应该尽量用位运算(&等)计算，不然会很麻烦，毕竟是基于二进制的」 
 「本题思路是从后往前计算1的个数,并将其去除」 
 「1101 1100 & 1101 1011 = 1101 1000」
