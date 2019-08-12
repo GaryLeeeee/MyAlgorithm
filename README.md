@@ -40,9 +40,21 @@
 `动态规划`
 * [变态跳台阶](https://github.com/GaryLeeeee/MyAlgorithm/blob/master/src/practice/Code9.java)  
 「在已有的`跳台阶`基础上加上了可以跳1-n阶,所以由`f(n)=f(n-1)+f(n-1)`转为`f(n)=f(n-1)+f(n-2)+...+f(n-n)`即可」    
+
 `二叉树`
 * [重构二叉树](https://github.com/GaryLeeeee/MyAlgorithm/blob/master/src/practice/Code4.java)  
 「在给定的先序遍历和中序遍历还原二叉树」    
 「1.先序的第一个为父节点(root)」  
 「2.去中序找到root,左边是左子树,右边是右子树」
 「3.然后左右子树重复1 2操作...」  
+
+`二进制`
+* [二进制中1的个数](https://github.com/GaryLeeeee/MyAlgorithm/blob/master/src/practice/Code11.java)
+「对于该种题型应该尽量用位运算(&等)计算，不然会很麻烦，毕竟是基于二进制的」 
+「本题思路是从后往前计算1的个数,并将其去除」 
+「1101 1100 & 1101 1011 = 1101 1000」
+「1101 1000 & 1101 0111 = 1101 0000」
+「1101 0000 & 1100 1111 = 1100 0000」
+...
+「1000 0000 & 0111 1011 = 0000 0000」
+「运行到这里后为0000 0000了就可以停止循环了,然后计算&的次数即有1的个数」
