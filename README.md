@@ -1,6 +1,6 @@
 | leetcode | 比较经典的算法 |剑指offer|公司笔试真题|
 | :---: | :----: | :---: | :----: |
-| [:art:](#art-算法) | [:pencil2:](#pencil2-操作系统) | [:zap:](#zap-网络) | [:memo:](#memo-面向对象) |
+| [:art:](#art-算法) | [:pencil2:](#pencil2-比较经典的算法) | [:zap:](#zap-剑指offer) | [:memo:](#memo-公司笔试真题) |
 ## :art: 算法
 `简单`  
 * [两数之和](https://github.com/GaryLeeeee/MyAlgorithm/blob/master/src/leetcode/easy/Code1.java) 
