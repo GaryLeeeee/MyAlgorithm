@@ -1,6 +1,7 @@
-# MyAlgorithm
-用来记录自己刷过的一些题(Leetcode)
-## 算法
+| leetcode | 比较经典的算法 |剑指offer|公司笔试真题|
+| :---: | :----: | :---: | :----: |
+| [:art:](#art-算法) | [:pencil2:](#pencil2-操作系统) | [:zap:](#zap-网络) | [:memo:](#memo-面向对象) |
+## :art: 算法
 `简单`  
 * [两数之和](https://github.com/GaryLeeeee/MyAlgorithm/blob/master/src/leetcode/easy/Code1.java) 
 * [反转整数](https://github.com/GaryLeeeee/MyAlgorithm/blob/master/src/leetcode/easy/Code7.java) 
@@ -26,7 +27,7 @@
 `中等` 
 * [两数相加](https://github.com/GaryLeeeee/MyAlgorithm/blob/master/src/leetcode/middle/Code2.java) 
 
-## 比较经典的算法
+## :pencil2: 比较经典的算法
 `动态规划`
 * [最长回文子串](https://github.com/GaryLeeeee/MyAlgorithm/blob/master/src/leetcode/middle/Code5.java)  
 「比如输入`abada`则返回`aba`，输入`aaaa`则返回`aaaa`」    
@@ -36,7 +37,7 @@
 「然后判断`ef`是否回文，就判断首尾e和f是否相同，`不相同`，则以上的`abefba`，`befb`，`ef`都不是回文」    
  需要注意的是i和j的顺序，防止出现短串没判断就判断长串(具体看代码注释)      
 
-## [剑指offer](https://www.nowcoder.com/ta/coding-interviews)
+## :zap: [剑指offer](https://www.nowcoder.com/ta/coding-interviews)
 `动态规划`
 * [变态跳台阶](https://github.com/GaryLeeeee/MyAlgorithm/blob/master/src/practice/Code9.java)  
 「在已有的`跳台阶`基础上加上了可以跳1-n阶,所以由`f(n)=f(n-1)+f(n-1)`转为`f(n)=f(n-1)+f(n-2)+...+f(n-n)`即可」    
@@ -59,7 +60,7 @@
 「1000 0000 & 0111 1011 = 0000 0000」    
 「运行到这里后为0000 0000了就可以停止循环了,然后计算&的次数即有1的个数」    
 
-## 公司笔试真题
+## :memo: 公司笔试真题
 ### 360
 * [城市修建](https://github.com/GaryLeeeee/MyAlgorithm/blob/master/src/company/c_360/Code1.java)    
 `有一个城市需要修建，给你N个民居的坐标X,Y，问把这么多民居全都包进城市的话，城市所需最小面积是多少（注意，城市为平行于坐标轴的正方形）`     
